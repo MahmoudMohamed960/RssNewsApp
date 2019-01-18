@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="@dimen/dimen_ss"
+    android:layout_marginTop="@dimen/dimen_ss"
+    android:layout_marginRight="@dimen/dimen_ss"
+    android:layout_marginBottom="@dimen/dimen_ss"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:id="@+id/title_article_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_sss"
+        android:layout_marginBottom="@dimen/dimen_s"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="title article"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/dimen_xxl" />
+
+    <TextView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_sss"
+        android:layout_marginTop="@dimen/dimen_sss"
+        android:layout_marginRight="@dimen/dimen_sss"
+        android:layout_marginBottom="@dimen/dimen_sss"
+        android:text="See More"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/size_xxl" />
+
+    <ImageView
+        android:id="@+id/image_article_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_s"
+        android:layout_marginTop="@dimen/dimen_s"
+        android:layout_marginRight="@dimen/dimen_s"
+        android:layout_marginBottom="@dimen/dimen_s"
+        android:src="@mipmap/ic_launcher" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_ss"
+        android:layout_marginBottom="@dimen/dimen_m"
+        android:background="@color/textColor" />
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

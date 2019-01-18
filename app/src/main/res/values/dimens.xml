@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="dimen_sss">1dp</dimen>
+    <dimen name="dimen_ss">2dp</dimen>
+    <dimen name="dimen_s">4dp</dimen>
+    <dimen name="dimen_m">8dp</dimen>
+    <dimen name="dimen_l">16dp</dimen>
+    <dimen name="dimen_xl">24dp</dimen>
+    <dimen name="dimen_xxl">32dp</dimen>
+    <dimen name="dimen_xxxl">40dp</dimen>
+    <dimen name="dimen_xxxxl">48dp</dimen>
+
+    <dimen name="size_sss">8sp</dimen>
+    <dimen name="size_ss">10sp</dimen>
+    <dimen name="size_s">12sp</dimen>
+    <dimen name="size_m">16sp</dimen>
+    <dimen name="size_l">20sp</dimen>
+    <dimen name="size_xl">24sp</dimen>
+    <dimen name="size_xxl">28sp</dimen>
+    <dimen name="size_xxxl">32sp</dimen>
+</resources>
+
